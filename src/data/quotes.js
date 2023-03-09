@@ -46,7 +46,7 @@ const quotes = [
     },
     {
         id: 10,
-        quote: "",
+        quote: "a",
         author: "",
     },
     {
