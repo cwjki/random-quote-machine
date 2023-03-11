@@ -1,4 +1,4 @@
-const quotes = [
+export const quotes = [
     {
         id: 1,
         quote: "Success is not final, failure is not fatal: It is the courage to continue that counts.",
@@ -101,4 +101,4 @@ const quotes = [
     },
 ]
 
-export default quotes;
+export const colors = ['#9B2323', '#5F9B23', '#239B9B', '#5F239B'];

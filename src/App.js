@@ -2,7 +2,7 @@ import QuoteBox from './components/QuoteBox';
 
 function App() {
   return (
-    <div className="container-fluid bg-primary vw-100 vh-100">
+    <div>
       <QuoteBox />
     </div>
   );
