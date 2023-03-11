@@ -10,11 +10,9 @@ const QuoteBox = () => {
   const onClick = () => {
     let rIndex = Math.floor(Math.random() * quotes.length);
     let rColor = Math.floor(Math.random() * colors.length);
-    while (rIndex === quoteIndex) {
+    while (rIndex === quoteIndex || rColor === colorIndex) {
       rIndex = Math.floor(Math.random() * quotes.length);
-      while (rColor === colorIndex) {
-        rColor = Math.floor(Math.random() * colors.length);
-      }
+      rColor = Math.floor(Math.random() * colors.length);
     }
     setQuoteIndex(rIndex);
     setColorIndex(rColor);
@@ -53,7 +51,7 @@ const QuoteBox = () => {
                   className="fs-5 text-center fw-light">
                     - {quotes[quoteIndex].author}
                 </p>
-                <div className="row">
+                <div className="row p-1">
                   <div className="col-6">
                     <a id="tweet-quote" href="https://twitter.com/intent/tweet" target="_blank" rel="noreferrer">
                       <button 
@@ -85,9 +83,13 @@ const QuoteBox = () => {
                 </div>
             </div>
           </div>
-        </div> 
+          <div className="row mt-3">
+            <a className="btn btn-muted btn-outlined" id="cwjki" href="https://github.com/cwjki" target="_blank" rel="noreferrer">
+              <p className="text-center text-light fs-5">Made by cwjki </p>  
+            </a>
+          </div>
+        </div>
       </div>
-
     </div>
   )
 }
