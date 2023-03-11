@@ -1,9 +1,8 @@
-import './App.css';
-import QuoteBox from './components/QuoteBox'
+import QuoteBox from './components/QuoteBox';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container-fluid bg-primary vw-100 vh-100">
       <QuoteBox />
     </div>
   );
