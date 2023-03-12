@@ -53,7 +53,8 @@ const QuoteBox = () => {
                 </p>
                 <div className="row p-1">
                   <div className="col-6">
-                    <a id="tweet-quote" href="https://twitter.com/intent/tweet" target="_blank" rel="noreferrer">
+                    <a id="tweet-quote" target="_blank" rel="noreferrer"
+                    href={`https://twitter.com/intent/tweet?hashtags=quotes&text="${quotes[quoteIndex].quote}" - ${quotes[quoteIndex].author}`}>
                       <button 
                         className="btn btn-lg rounded-3" 
                         style={{
