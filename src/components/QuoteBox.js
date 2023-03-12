@@ -26,7 +26,7 @@ const QuoteBox = () => {
                  MozTransition: "all 1.5s ease"}}>
       <div className="row align-items-center vh-100">
         <div className="col-4 mx-auto">
-          <div className="card shadow rounded-3">
+          <div className="card shadow rounded-4">
             <div className="card-body d-flex flex-column">
                 <p 
                   style={{
