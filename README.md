@@ -6,3 +6,5 @@ First project to obtain the Front End Development Libraries certification from f
 ####  
 ![project img](/public/random-quote-machine.png)
 
+
+[Link to the Random Quote Machine](https://cwjki.github.io/random-quote-machine-react/) 
