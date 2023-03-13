@@ -19,13 +19,13 @@ const QuoteBox = () => {
   }
 
   return (
-    <div className="container-fluid vw-100 vh-100" id="quote-box" 
+    <div className="container-fluid vw-100 vh-100" 
          style={{backgroundColor: colors[colorIndex],
                  transition: "all 1.5s ease",
                  WebkitTransition: "all 1.5s ease",
                  MozTransition: "all 1.5s ease"}}>
       <div className="row align-items-center vh-100">
-        <div className="col-4 mx-auto">
+        <div className="col-4 mx-auto" id="quote-box">
           <div className="card shadow rounded-4">
             <div className="card-body d-flex flex-column">
                 <p 
