@@ -25,7 +25,7 @@ const QuoteBox = () => {
                  WebkitTransition: "all 1.5s ease",
                  MozTransition: "all 1.5s ease"}}>
       <div className="row align-items-center vh-100">
-        <div className="col-xl-4 col-md-6 col-xs-8 mx-auto" id="quote-box">
+        <div className="col-xl-4 col-md-6 col-sm-6 col-11 mx-auto" id="quote-box">
           <div className="card shadow rounded-4">
             <div className="card-body d-flex flex-column">
                 <p 
